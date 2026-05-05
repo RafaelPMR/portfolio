@@ -12,9 +12,9 @@ export const projects = [
       "Website institucional para o laboratório AgriRS Lab do Instituto Nacional de Pesquisas Espaciais. Atuei como desenvolvedor front-end, criando protótipos, organizando sprints e participando ativamente do desenvolvimento com metodologia Scrum.",
     tags: ["React", "HTML", "CSS", "Scrum", "Prototipação"],
     role: "Front-end Developer",
-    period: "2024",
+    period: "2025",
     // ✏️ Troque pelos links reais:
-    github: "https://github.com/RafaelPmr",
+    github: "https://github.com/KaimanByte/AgriRS-Lab",
     live: null,  // null = botão "Ver site" não aparece
   },
 

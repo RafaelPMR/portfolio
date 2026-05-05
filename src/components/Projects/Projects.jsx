@@ -15,7 +15,7 @@ export default function Projects() {
 
         <p className="section-label">[ 03 — PROJETOS ]</p>
         {/* ✏️ EDITE — título e subtítulo */}
-        <h2 className="section-title">Trabalhos selecionados</h2>
+        <h2 className="section-title">Projetos</h2>
         <p className="section-sub">
           Projetos desenvolvidos durante minha trajetória — cada um
           representa um aprendizado real.
