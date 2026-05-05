@@ -77,16 +77,24 @@
 }
 
 /* ── RESPONSIVO ─────────────────────────────────────────────── */
-@media (max-width: 500px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+@media (max-width: 560px) {
+  .box { padding: 36px 24px; }
+
+  /* Corrige o botão de email no mobile */
+  .emailBtn {
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    justify-content: center;
   }
-  .card {
-    padding: 16px 10px;
-    min-height: 85px;
+
+  .emailText {
+    font-size: 11px;   /* diminui fonte do email */
+    word-break: break-all;
   }
-  .cardIcon { width: 32px; height: 32px; }
-  .cardName { font-size: 10px; }
+
+  .copyLabel {
+    font-size: 10px;
+  }
 }
 

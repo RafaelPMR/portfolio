@@ -111,16 +111,22 @@
 }
 
 /* ── RESPONSIVO ─────────────────────────────────────────────── */
-@media (max-width: 500px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-  }
+@media (max-width: 600px) {
   .card {
-    padding: 16px 10px;
-    min-height: 85px;
+    padding: 22px 18px;
   }
-  .cardIcon { width: 32px; height: 32px; }
-  .cardName { font-size: 10px; }
+
+  /* Badge vira inline no mobile, não sobrepõe mais */
+  .featBadge {
+    position: static;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+
+  .meta {
+    /* Garante que o meta fica abaixo do badge */
+    display: block;
+    margin-top: 4px;
+  }
 }
 
