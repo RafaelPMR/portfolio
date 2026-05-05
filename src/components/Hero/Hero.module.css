@@ -111,7 +111,16 @@
 }
 
 /* ── RESPONSIVO ─────────────────────────────────────────────── */
-@media (max-width: 600px) {
-  .name { font-size: clamp(24px, 9vw, 38px); }
-  .stats { gap: 28px; }
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .card {
+    padding: 16px 10px;
+    min-height: 85px;
+  }
+  .cardIcon { width: 32px; height: 32px; }
+  .cardName { font-size: 10px; }
 }
+

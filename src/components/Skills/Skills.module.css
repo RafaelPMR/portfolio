@@ -122,6 +122,14 @@
 
 /* ── RESPONSIVO ─────────────────────────────────────────────── */
 @media (max-width: 500px) {
-  .grid { grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 10px; }
-  .cardIcon { width: 36px; height: 36px; }
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .card {
+    padding: 16px 10px;
+    min-height: 85px;
+  }
+  .cardIcon { width: 32px; height: 32px; }
+  .cardName { font-size: 10px; }
 }

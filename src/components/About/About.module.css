@@ -93,5 +93,18 @@
 
 /* ── RESPONSIVO ─────────────────────────────────────────────── */
 @media (max-width: 680px) {
-  .grid { grid-template-columns: 1fr; gap: 36px; }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  /* Centraliza a foto no mobile */
+  .cardsCol {
+    align-items: center;
+  }
+
+  .cardsCol img {
+    max-width: 100%;
+    width: 100%;
+  }
 }

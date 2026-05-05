@@ -111,7 +111,16 @@
 }
 
 /* ── RESPONSIVO ─────────────────────────────────────────────── */
-@media (max-width: 600px) {
-  .card { padding: 22px 20px; }
-  .featBadge { position: static; display: inline-block; margin-bottom: 14px; }
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .card {
+    padding: 16px 10px;
+    min-height: 85px;
+  }
+  .cardIcon { width: 32px; height: 32px; }
+  .cardName { font-size: 10px; }
 }
+
